@@ -5,5 +5,5 @@ WORKDIR /app
 copy requirements.txt ./requirements.txt
 run pip install -r requirements.txt
 copy . .
-ENTRYPOINT [ "stramlit", "run"]
+ENTRYPOINT [ "streamlit", "run"]
 CMD ["app.py"]
