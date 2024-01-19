@@ -3,3 +3,4 @@ pillow
 pickle5
 torch
 torchvision
+efficientnet-pytorch
